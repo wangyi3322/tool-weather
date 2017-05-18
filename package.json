@@ -1,0 +1,24 @@
+{
+  "name": "tool-weather",
+  "version": "1.0.2",
+  "description": "这是一款天气预报的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "weather": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyi3322/tool-weather"
+  },
+  "author": "y1",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.1"
+  }
+}
